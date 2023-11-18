@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(90deg, yellow, black);
+            margin-top: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+        }
+
+        button:hover {
+            background-color: black;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button onclick="redirectToMainWebsite('PAS2a.html')">🔙</button>
+    </header>
+    <h1>Streaming Movies :</h1>
+    <div class="box">
+        <h2>Movies 1 : Coco</h2>
+        <h2>Movies 2 : Avengers End Game</h2>
+        <h2>Movies 3 : Searching 🔎</h2>
+        <h2>Movies 4 : Life(Disney)</h2>
+    </div>
+</body>
+<script>
+    function redirectToMainWebsite() {
+        window.location.href = 'Pas2a.html';
+    }
+</script>
+</html>
